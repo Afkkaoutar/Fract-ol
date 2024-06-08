@@ -4,13 +4,13 @@ CFLAGS= -Wall -Wextra -Werror
 
 HDR = fractol.h
 
-SRC = fractol.c julia.c mandelbrot.c burningship.c outils.c
+SRC = fractol.c Mandelbrot.c julia.c burningship.c hooks.c
 
 OBJ = $(SRC:.c=.o)
 
-NAME = fract-ol
+NAME = fractol
 
-all: fract-ol
+all: fractol
 
 $(NAME) : $(OBJ)
 	$(CC) $(OBJ) -lmlx -framework OpenGL -framework AppKit -o $(NAME)
