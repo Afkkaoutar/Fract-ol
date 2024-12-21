@@ -4,7 +4,7 @@ CFLAGS= -Wall -Wextra -Werror
 
 HDR = fractol.h
 
-SRC = fractol.c Mandelbrot.c julia.c burningship.c hooks.c zoom.c outils.c
+SRC = fractol.c mandelbrot.c julia.c burningship.c hooks.c zoom.c outils.c
 
 OBJ = $(SRC:.c=.o)
 
