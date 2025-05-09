@@ -1,6 +1,6 @@
 CC= cc
 
-CFLAGS= -Wall -Wextra -Werror
+CFLAGS= -Wall -Wextra -Werror -Iminilibx_opengl_20191021
 
 HDR = fractol.h
 
@@ -13,7 +13,7 @@ NAME = fractol
 all: fractol
 
 $(NAME) : $(OBJ)
-	$(CC) $(OBJ) -lmlx -framework OpenGL -framework AppKit -o $(NAME)
+	$(CC) $(OBJ) -Lminilibx_opengl_20191021 -lmlx -framework OpenGL -framework AppKit -o $(NAME)
 
 %.o : %.c $(HDR)
 	$(CC) $(CFLAGS) -Imlx -c $< -o $@
