@@ -30,3 +30,41 @@ Le but du projet est de représenter graphiquement ces fractales et d’offrir u
 - Ce projet utilise **minilibx** pour l'affichage graphique, donc assurez-vous d'avoir cette bibliothèque installée sur votre machine. Si vous travaillez sur macOS, vous pouvez installer minilibx avec la commande suivante :
 
 
+Voici un aperçu des différentes fractales générées par le programme :
+
+### Julia
+Affiche l'ensemble de Julia avec les paramètres `0.285` et `0.013` :
+
+![Julia](images/julia.png)
+
+### Julia 1
+Affiche une autre variation de l'ensemble de Julia avec des paramètres différents :
+
+![Julia 1](images/julia1.png)
+
+### Julia 2
+Une autre visualisation de l'ensemble de Julia avec différents paramètres :
+
+![Julia 2](images/julia2.png)
+
+### Mandelbrot
+Voici l'ensemble de Mandelbrot :
+
+![Mandelbrot](images/Mandelbrot.png)
+
+### Mandelbrot 2
+Une autre vue de l'ensemble de Mandelbrot, zoomée sur une zone différente :
+
+![Mandelbrot 2](images/Mandelbrot2.png)
+
+### Burningship
+Affiche l'ensemble **Burningship**, une autre fractale fascinante :
+
+![Burningship](images/Burningship.png)
+
+### Burningship 2
+Une autre vue de l'ensemble Burningship avec un zoom différent :
+
+![Burningship 2](images/Burningship2.png)
+
+
